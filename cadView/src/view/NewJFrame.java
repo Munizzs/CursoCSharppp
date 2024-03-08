@@ -143,6 +143,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private void btnLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnLoginMouseClicked
         String login = textLogin.getText();
         String senha = passSenha.getText();
+        
                 
         if ( ! login.equals("admin") || ! senha.equals("1234"))
         {
