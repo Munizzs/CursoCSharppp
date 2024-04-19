@@ -1,0 +1,14 @@
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\bin\Debug\net8.0\Fundamentos.exe
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\bin\Debug\net8.0\Fundamentos.deps.json
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\bin\Debug\net8.0\Fundamentos.runtimeconfig.json
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\bin\Debug\net8.0\Fundamentos.dll
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\bin\Debug\net8.0\Fundamentos.pdb
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\Fundamentos.AssemblyInfoInputs.cache
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\Fundamentos.AssemblyInfo.cs
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\Fundamentos.csproj.CoreCompileInputs.cache
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\Fundamentos.dll
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\refint\Fundamentos.dll
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\Fundamentos.pdb
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\Fundamentos.genruntimeconfig.cache
+C:\Users\Ideapad\Documents\Programation\DIO\BootCamp .Net\Fundamentos\obj\Debug\net8.0\ref\Fundamentos.dll
