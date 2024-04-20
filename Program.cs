@@ -1,4 +1,18 @@
-﻿/*using Fundamentos.Models;
+﻿//------------------------------------------------------------------------------------------------------
+using Fundamentos.Models;
+
+Calculadora cal = new Calculadora();
+
+cal.Somar(10,5);
+cal.Subtrair(15,5);
+cal.Multiplicar(5,5);
+cal.Dividir(10,2);
+cal.Potencia(5,4);
+cal.Raiz(60);
+
+//-----------------------------------------------------------------------------------------------------------
+
+/*using Fundamentos.Models;
 
 Pessoa p1 = new Pessoa();
 
@@ -7,107 +21,107 @@ p1.Idade = 20;
 p1.Apresentar();*/
 
 
+   //Sintaxe C#: --------------------------------------------------------------------------------------
 
-                                         //Sintaxe C#:
+// //Declaração de Namespace:
 
-//Declaração de Namespace:
+//     using System;
 
-    using System;
+// //Declaração de Classe propiedades e Método:
 
-//Declaração de Classe propiedades e Método:
+//                 /*        public class MinhaClasse
+//                         {
+//                             // Membros da classe (métodos, propriedades, etc.) aqui
 
-                /*        public class MinhaClasse
-                        {
-                            // Membros da classe (métodos, propriedades, etc.) aqui
+//                             public string Nome { get; set; }
+//                                 public void MeuMetodo()
+//                                     {
+//                                         // Lógica do método aqui
+//                                     }  
+//                         }*/
 
-                            public string Nome { get; set; }
-                                public void MeuMetodo()
-                                    {
-                                        // Lógica do método aqui
-                                    }  
-                        }*/
+// //Declaração de variavel
 
-//Declaração de variavel
+// bool estaChovendo = true;
 
-bool estaChovendo = true;
+// string nome = "João";
+// char letra = 'A';
 
-string nome = "João";
-char letra = 'A';
+// byte opcao = 1;
+// int idade = 25;
 
-byte opcao = 1;
-int idade = 25;
+// double pi = 3.14159265359;
+// float salario = 1500.50f;
+// decimal preco = 50.99m; //Referencia valores monetarios.
 
-double pi = 3.14159265359;
-float salario = 1500.50f;
-decimal preco = 50.99m; //Referencia valores monetarios.
+// //Saida no console
 
-//Saida no console
+// Console.WriteLine($"Nome: {nome}\nIdade {idade}");
+// Console.Write("Preço: R$"+preco);
 
-Console.WriteLine($"Nome: {nome}\nIdade {idade}");
-Console.Write("Preço: R$"+preco);
+// //Estruturas de Controle (if, else, switch, while, do-while, for):
 
-//Estruturas de Controle (if, else, switch, while, do-while, for):
+// if (idade >= 18)
+// {
+//     Console.WriteLine("\nVocê é maior de idade.");
+// }
+// else
+// {
+//     Console.WriteLine("\nVocê é menor de idade.");
+// }
 
-if (idade >= 18)
-{
-    Console.WriteLine("\nVocê é maior de idade.");
-}
-else
-{
-    Console.WriteLine("\nVocê é menor de idade.");
-}
+// switch (opcao)
+// {
+//    /* case 1:
+//         Console.WriteLine("Opção 1:"+pi);
+//         break;
+//     case 2:
+//         Console.WriteLine("Opção 2: R$"+salario);
+//         break;
+//     default:
+//         Console.WriteLine("Chuva: "+estaChovendo+" a-"+letra);
+//         break;
+//     */    
+// }
 
-switch (opcao)
-{
-   /* case 1:
-        Console.WriteLine("Opção 1:"+pi);
-        break;
-    case 2:
-        Console.WriteLine("Opção 2: R$"+salario);
-        break;
-    default:
-        Console.WriteLine("Chuva: "+estaChovendo+" a-"+letra);
-        break;
-    */    
-}
+// while (opcao < 10)
+// {
+//    // Console.WriteLine(opcao);
+//     opcao++;
+// }
 
-while (opcao < 10)
-{
-   // Console.WriteLine(opcao);
-    opcao++;
-}
+// for (int i = 0; i < 5; i++)
+// {
+//     //Console.WriteLine(i);
+// }
 
-for (int i = 0; i < 5; i++)
-{
-    //Console.WriteLine(i);
-}
+// //Datas
 
-//Datas
+// DateTime dataAtual = DateTime.Now;
 
-DateTime dataAtual = DateTime.Now;
+// //Conversores - cast
 
-//Conversores - cast
+// int a = Convert.ToInt32("10"); //Aceita valores nulo "null".
+// int b = int.Parse("5");
 
-int a = Convert.ToInt32("10"); //Aceita valores nulo "null".
-int b = int.Parse("5");
+// string x = a.ToString();
 
-string x = a.ToString();
+// int r = int.MaxValue;
+// long m = r;
 
-int r = int.MaxValue;
-long m = r;
+// Console.WriteLine(a);
+// Console.WriteLine(b);
+// Console.WriteLine(x);
 
-Console.WriteLine(a);
-Console.WriteLine(b);
-Console.WriteLine(x);
+// String tx = "12-";
 
-String tx = "12-";
+// int.TryParse(tx,out int xt); //Conversão de forma mais segura
 
-int.TryParse(tx,out int xt); //Conversão de forma mais segura
+// Console.WriteLine(xt);
 
-Console.WriteLine(xt);
+// //Entrada
 
-//Entrada
-
-Console.ReadLine();
+// Console.ReadLine();
+//Convert.ToInt32(Console.ReadLine()); //Ler um numero inteiro
 
     
