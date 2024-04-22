@@ -2,6 +2,7 @@
 
  //------------------------------------------------------------------------------------------------------
   using Fundamentos.Commun.Models;
+  
 
   Calculadora cal = new Calculadora();
 
@@ -157,3 +158,4 @@ p1.Apresentar();
 // for(int i=0;i<estado.Count;i++){
    //Console.WriteLine($"{estado[i]}");
 // }
+
